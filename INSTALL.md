@@ -28,7 +28,8 @@ pip install ninja yacs cython matplotlib tqdm
 # follow PyTorch installation in https://pytorch.org/get-started/locally/
 # we give the instructions for CUDA 9.0
 conda install -c pytorch torchvision=0.2.1 cudatoolkit=9.0
-
+ # 这里一定要下【注意】pytorch torchvision 和 cudatookit 的版本和关系
+ 
 export INSTALL_DIR=$PWD
 
 # install pycocotools. Please make sure you have installed cython.
