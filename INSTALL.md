@@ -9,8 +9,9 @@
 - GCC >= 4.9,< 6.0
 - (optional) OpenCV for the webcam demo
 
-## pytorch torchvision CUDA 和python的版本要匹配！！参考文献(https://blog.csdn.net/qq_40263477/article/details/106577790)
-## 同时pytorch 和 torchvision的版本和CUDA 版本可以稍微浮动！
+### pytorch torchvision CUDA 和python的版本要匹配！！
+[参考文献](https://blog.csdn.net/qq_40263477/article/details/106577790)
+### 同时pytorch 和 torchvision的版本和CUDA 版本可以稍微浮动！
 
 ### Option 1: Step-by-step installation
 
