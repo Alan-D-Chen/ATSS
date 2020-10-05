@@ -68,9 +68,10 @@ The following command line will train ATSS_R_50_FPN_1x on 8 GPUs with Synchronou
         --config-file configs/atss/atss_R_50_FPN_1x.yaml \
         DATALOADER.NUM_WORKERS 2 \
         OUTPUT_DIR training_dir/atss_R_50_FPN_1x
- for example:
+ For example:<br>
  `CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch     --nproc_per_node=1     --master_port=$((RANDOM + 10000))     tools/train_net.py     --config-file configs/atss/atss_R_50_FPN_1x.yaml     DATALOADER.NUM_WORKERS 2 
 `
+<br>
 Please note that:
 1) If you want to use fewer GPUs, please change `--nproc_per_node` to the number of GPUs. No other settings need to be changed. The total batch size does not depends on `nproc_per_node`. If you want to change the total batch size, please change `SOLVER.IMS_PER_BATCH` in [configs/atss/atss_R_50_FPN_1x.yaml](configs/atss/atss_R_50_FPN_1x.yaml).
 2) The models will be saved into `OUTPUT_DIR`.
