@@ -56,7 +56,7 @@ ATSS_dcnv2_X_101_64x4d_FPN_2x | Yes | 144ms | 47.7 | 47.7 | [Google](https://dri
 [5] *The model `ATSS_dcnv2_X_101_64x4d_FPN_2x` with multi-scale testing achieves 50.7% in AP on COCO test-dev. Please use `TEST.BBOX_AUG.ENABLED True` to enable multi-scale testing.*
 
 ## Training
-### 使用特定的gpu 
+### Using a specific GPU
 `CUDA_VISIBLE_DEVICES=1 python my_script.py`
 
 The following command line will train ATSS_R_50_FPN_1x on 8 GPUs with Synchronous Stochastic Gradient Descent (SGD):
@@ -68,7 +68,7 @@ The following command line will train ATSS_R_50_FPN_1x on 8 GPUs with Synchronou
         --config-file configs/atss/atss_R_50_FPN_1x.yaml \
         DATALOADER.NUM_WORKERS 2 \
         OUTPUT_DIR training_dir/atss_R_50_FPN_1x
- For example:<br>
+ For example:
  <br>
  `CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch     --nproc_per_node=1     --master_port=$((RANDOM + 10000))     tools/train_net.py     --config-file configs/atss/atss_R_50_FPN_1x.yaml     DATALOADER.NUM_WORKERS 2 
 `
