@@ -18,7 +18,9 @@
 
 ​ 1.cat /usr/local/cuda/version.txt
 ​ 2.或者 nvcc -v
-建议参考(文献)[https://www.cnblogs.com/alanchens/p/13950902.html]
+<br>
+建议参考[文献](https://www.cnblogs.com/alanchens/p/13950902.html)
+<br>
 ### Option 1: Step-by-step installation
 
 
