@@ -11,7 +11,7 @@ In this work, we first point out that the essential difference between anchor-ba
 *Note: The lite version of our ATSS has been merged to the official code of [FCOS](https://github.com/tianzhi0549/FCOS) as the [center sampling](https://github.com/tianzhi0549/FCOS/blob/master/fcos_core/modeling/rpn/fcos/loss.py#L166-L173) improvement, which improves its performance by ~0.8%. The full version of our ATSS can further improve its performance.*
 
 ## Installation
-This ATSS implementation is based on [FCOS](https://github.com/tianzhi0549/FCOS) and [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) and the installation is the same as them. Please check [INSTALL.md](INSTALL.md) for installation instructions.（只要执行ISTALL.md）
+This ATSS implementation is based on [FCOS](https://github.com/tianzhi0549/FCOS) and [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) and the installation is the same as them. Please check [INSTALL.md](INSTALL.md) for installation instructions.（只要执行INSTALL.md）
 
 ## A quick demo
 Once the installation is done, you can download *ATSS_R_50_FPN_1x.pth* from [Google](https://drive.google.com/open?id=1t8RLdQ6fsFXa0kzPIQ7541uZeQeMXP73) or [Baidu](https://pan.baidu.com/s/1bYXjWJE35kHLpQAIeWtZ0g) to run a quick demo.
