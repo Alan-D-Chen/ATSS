@@ -12,7 +12,7 @@
 ### pytorch torchvision CUDA 和python的版本要匹配！！
 [参考文献](https://blog.csdn.net/qq_40263477/article/details/106577790)
 ### 同时pytorch 和 torchvision的版本和CUDA 版本可以稍微浮动！
-### 这里的 pytorch=1.0.1 torchvision=0.2.2 cudatoolkit=9.0，这个ATSS可以运行。
+### 这里的 pytorch=1.0.1 torchvision=0.2.2 cudatoolkit=9.0，这个ATSS可以运行。这里的python=3.6。
 
 这里最好能够查看一下cuda的版本：
 
