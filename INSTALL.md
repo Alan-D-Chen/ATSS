@@ -65,7 +65,10 @@ python setup.py build develop --no-deps
 
 
 unset INSTALL_DIR
-
+# ！These two sentences are very important. If you change the folder where the code is run, the two lines of code must be run again, because they bind the independence and interpretability of the whole model. Otherwise, there will be an embarrassing situation that the command line running location is not the same as the code running file！
+<br>
+这两句是非常重要的，如果更换了运行代码的文件夹，这两行代码一定要再次运行，因为这两行代码绑定了整个模型的独立性和可解释性。不然就会出现命令行运行位置与代码运行文件不是同一个的尴尬局面。
+<br>
 # or if you are on macOS
 # MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ python setup.py build develop
 ```
