@@ -65,6 +65,10 @@ python setup.py build develop --no-deps
 
 
 unset INSTALL_DIR
+
+# python setup.py build_ext install
+# python setup.py build develop --no-deps
+
 # ！These two sentences are very important. If you change the folder where the code is run, 
 # the two lines of code must be run again, because they bind the independence and interpretability
 # of the whole model. Otherwise, there will be an embarrassing situation that the command 
